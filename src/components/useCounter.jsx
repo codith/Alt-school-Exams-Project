@@ -38,6 +38,3 @@ const useCounter = () => {
   return { value, increment, decrement, reset, set };
 };
 export default useCounter;
-
-
-// 
