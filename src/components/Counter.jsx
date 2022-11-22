@@ -44,40 +44,7 @@ const Counter = () => {
 export default Counter;
 
 
-// import React from 'react'
-// import useCounter from './useCounter';
-// import { Helmet } from "react-helmet-async";
 
-
-
-// export default function Counter() {
-//     const {count, dispatch, ACTIONS} = useCounter();
-
-//   return (
-//     <>
-//       <Helmet>
-//         <title>Counter page</title>
-//         <meta name="description" content="A Page to test Count" />
-//         <link rel="canonical" href="/count"/>
-//       </Helmet>
-      
-//       <div className='counter'>
-//         <input type="text" placeholder='Enter a value to set'
-//         onChange={(e) => dispatch({type : ACTIONS.SET_VALUE,
-//         payload : e.target.value})}/>
-//         <h1>Counter : {count}</h1>
-//         <button onClick={() => {
-//           dispatch({type : ACTIONS.INCREASE})
-//         }}>Add Count</button>
-//         <button onClick={() => {
-//           dispatch({type : ACTIONS.DECREASE})
-//         }}>Lower Count</button>
-//         <button onClick={() => {
-//           dispatch({type : ACTIONS.RESET})
-//         }}>Reset Count</button>
-//       </div>
-//     </>
-//   )
 // }
 
 
